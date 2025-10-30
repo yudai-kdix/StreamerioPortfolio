@@ -3,7 +3,7 @@
     "name": "りゅせ",
     "roles": ["サーバーサイド"],
     "bio": "先輩にキャリーしてもらいました。",
-    "xUrl": "@ri_se_ya",
+    "xUrl": "https://x.com/ri_se_ya",
     "portfolioUrl": "https://portfolio-ten-orpin-97.vercel.app",
     "icon": "icon/aikon.jpg"
   },
@@ -11,14 +11,14 @@
     "name": "ゆうだい",
     "roles": ["フロントエンド","デプロイ周り"],
     "bio": "紅茶の悪魔になりたい",
-    "xUrl": "@yuuudaiiiiii",
+    "xUrl": "https://x.com/yuuudaiiiiii",
     "icon": "icon/yudai1.JPG"
   },
   {
     "name": "Cashew",
     "roles": ["ゲームクライアントサイド", "インゲーム"],
     "bio": "設計ワイワイ",
-    "xUrl": "@game_game_nuts",
+    "xUrl": "https://x.com/game_game_nuts",
     "portfolioUrl": "https://kdix-23-240.github.io/",
     "icon": "icon/Cashew3.JPEG"
   },
@@ -33,8 +33,8 @@
     "name": "umiyuri",
     "roles": ["サーバーサイド", "デプロイ周り"],
     "bio": "わからんことだらけでしたがいっぱい頑張っていっぱい助けてもらいました！",
-    "xUrl": "@wotagei_umiyuri",
-    "icon": "icon/umiyuri_icon.png",
+    "xUrl": "https://x.com/wotagei_umiyuri",
+    "icon": "icon/umiyuri_icon.jpg",
     "portfolioUrl": "https://github.com/umiyuri777"
   }
 ]
