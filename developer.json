@@ -31,7 +31,10 @@
   },
   {
     "name": "umiyuri",
-    "roles": ["サーバーサイド", "ゲームクライアントサイド", "デプロイ周り"],
-    "bio": "インフル中でコメントがもらえませんでした。お大事にしてください。"
+    "roles": ["サーバーサイド", "デプロイ周り"],
+    "bio": "わからんことだらけでしたがいっぱい頑張っていっぱい助けてもらいました！",
+    "xUrl": "@wotagei_umiyuri",
+    "icon": "icon/umiyuri_icon.png",
+    "portfolioUrl": "https://github.com/umiyuri777"
   }
 ]
