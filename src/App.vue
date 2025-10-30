@@ -2,6 +2,7 @@
   <AppHeader />
   <main>
     <SlideEmbed />
+    <TeamIntro />
     <DeveloperList />
   </main>
   <AppFooter />
@@ -10,6 +11,7 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue';
 import SlideEmbed from './components/SlideEmbed.vue';
+import TeamIntro from './components/TeamIntro.vue';
 import DeveloperList from './components/DeveloperList.vue';
 import AppFooter from './components/AppFooter.vue';
 </script>
@@ -17,4 +19,3 @@ import AppFooter from './components/AppFooter.vue';
 <style scoped>
 main { display: block; }
 </style>
-
