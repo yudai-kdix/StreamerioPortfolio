@@ -7,7 +7,7 @@
       <nav class="nav">
         <a class="btn" :href="unityHref" target="_blank" rel="noreferrer noopener" title="unityroom でプレイ">
           <Gamepad2 :size="16" />
-          <span>unityroom でプレイ</span>
+          <span>unityroom</span>
         </a>
       </nav>
     </div>
