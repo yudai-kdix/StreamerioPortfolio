@@ -1,0 +1,37 @@
+[
+  {
+    "name": "りゅせ",
+    "roles": ["サーバーサイド"],
+    "bio": "先輩にキャリーしてもらいました。",
+    "xUrl": "@ri_se_ya",
+    "portfolioUrl": "https://portfolio-ten-orpin-97.vercel.app",
+    "icon": "icon/aikon.jpg"
+  },
+  {
+    "name": "ゆうだい",
+    "roles": ["フロントエンド","デプロイ周り"],
+    "bio": "紅茶の悪魔になりたい",
+    "xUrl": "@yuuudaiiiiii",
+    "icon": "icon/yudai1.JPG"
+  },
+  {
+    "name": "Cashew",
+    "roles": ["ゲームクライアントサイド", "インゲーム"],
+    "bio": "設計ワイワイ",
+    "xUrl": "@game_game_nuts",
+    "portfolioUrl": "https://kdix-23-240.github.io/",
+    "icon": "icon/Cashew3.JPEG"
+  },
+  {
+    "name": "guu",
+    "roles": ["ゲームクライアントサイド", "アウトゲーム"],
+    "bio": "デザインと設計 頑張った",
+    "portfolioUrl": "https://unityroom.com/users/guuolta",
+    "icon": "icon/MyIcon.jpg"
+  },
+  {
+    "name": "umiyuri",
+    "roles": ["サーバーサイド", "ゲームクライアントサイド", "デプロイ周り"],
+    "bio": "インフル中でコメントがもらえませんでした。お大事にしてください。"
+  }
+]

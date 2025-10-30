@@ -1,0 +1,74 @@
+:root {
+  color-scheme: dark;
+  --bg: #0d0f12;
+  --panel: #151922;
+  --panel-2: #0f1219;
+  --accent: #7ac7ff;
+  --accent-2: #a78bfa;
+  --text: #e6e8ef;
+  --muted: #9aa3b2;
+}
+
+* { box-sizing: border-box; }
+html, body, #app { height: 100%; }
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(122,199,255,0.12), transparent 60%),
+    radial-gradient(1000px 500px at 120% 10%, rgba(167,139,250,0.10), transparent 55%),
+    linear-gradient(180deg, var(--panel-2), var(--bg));
+}
+
+.container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.title-pixel { font-family: "Press Start 2P", cursive; letter-spacing: 0.5px; }
+
+/* Pixel-ish frame */
+.pixel-frame {
+  background: var(--panel);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow:
+    0 0 0 2px rgba(0,0,0,0.5) inset,
+    0 4px 0 0 rgba(0,0,0,0.4),
+    0 6px 0 0 rgba(0,0,0,0.25);
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 10px;
+  margin: 2px;
+  font-size: 12px;
+  color: var(--text);
+  background: linear-gradient(180deg, rgba(122,199,255,0.18), rgba(122,199,255,0.08));
+  border: 1px solid rgba(122,199,255,0.35);
+  border-radius: 9999px; /* 丸いピル型に */
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  font-weight: 600;
+  color: var(--text);
+  background: linear-gradient(180deg, rgba(167,139,250,0.22), rgba(167,139,250,0.10));
+  border: 1px solid rgba(167,139,250,0.4);
+  text-decoration: none;
+  border-radius: 10px;
+}
+.btn:hover { filter: brightness(1.05); }
+
+/* Sections */
+section { padding: 48px 0; }
+@media (min-width: 960px) { section { padding: 64px 0; } }
+
+/* Slide wrapper responsive */
+.slide-wrap { width: 100%; max-width: 1200px; margin: 0 auto; }
+.slide-frame { position: relative; width: 100%; aspect-ratio: 16/9; }
+.slide-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Grid */
+.grid { display: grid; gap: 16px; }
+@media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .grid { grid-template-columns: repeat(3, 1fr); } }
